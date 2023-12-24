@@ -1,5 +1,15 @@
 # React Material-UI Project
 
+<div align="center">
+  <img src="Screenshot from 2023-12-24 23-05-59.png" style="width: 200px;">
+  <img src="Screenshot from 2023-12-24 23-06-27.png" style="width: 200px;">
+  <img src="Screenshot from 2023-12-24 23-06-47.png"
+  style="width: 200px;">
+   
+  <img src="Screenshot from 2023-12-24 23-06-56.png"
+  style="width: 200px;">
+</div>
+
 ## Overview
 
 This is a front-end project built with React and Material-UI, focusing on creating a sleek and responsive user interface. The project incorporates essential Material-UI components and features a dark theme for a modern and visually appealing design.
