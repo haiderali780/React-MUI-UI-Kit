@@ -26,6 +26,7 @@ const Nav_bar = () => {
     padding: '0 10px',
     borderRadius: theme.shape.borderRadius,
     width: '40%',
+    color: 'text.primary',
   }));
 
   const Icons = styled(Box)(({theme}) => ({
