@@ -1,8 +1,8 @@
 import {Stack} from '@mui/material';
-import Feed from './Components/feed';
-import Right_bar from './Components/right_bar';
-import Side_bar from './Components/side_bar';
-import Nav_bar from './Components/nav_bar';
+import Feed from './Components/Feed/feed';
+import Right_bar from './Components/Right_Bar//right_bar';
+import Side_bar from './Components/Side_Bar/side_bar';
+import Nav_bar from './Components/Nav_Bar/nav_bar';
 
 const App = () => {
   return (
