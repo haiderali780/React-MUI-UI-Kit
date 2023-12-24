@@ -20,7 +20,7 @@ import {
 } from '@mui/material';
 import Item_list from './item_list';
 
-const Side_bar = () => {
+const Side_bar = ({mode, setMode}) => {
   const items = [
     {
       name: 'Homepage',
@@ -59,7 +59,7 @@ const Side_bar = () => {
 
   return (
     <Box flex={1} p={2} sx={{display: {xs: 'none', sm: 'block'}}}>
-      <Item_list items={items} />
+      <Item_list items={items} mode={mode} setMode={setMode} />
     </Box>
   );
 };

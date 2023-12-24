@@ -1,6 +1,6 @@
 import {Box, List, ListItem, ListItemButton, ListItemIcon, ListItemText} from '@mui/material';
-
-const Item_list = ({items}) => {
+import {Switch} from '@mui/material';
+const Item_list = ({items, mode, setMode}) => {
   return (
     <Box position='fixed'>
       <List>
@@ -8,7 +8,11 @@ const Item_list = ({items}) => {
           <ListItem disablePadding>
             <ListItemButton key={index}>
               <ListItemIcon>{item.icon}</ListItemIcon>
-              {index !== items.length - 1 ? <ListItemText primary={item.name} /> : item.name}
+              {index !== items.length - 1 ? (
+                <ListItemText primary={item.name} />
+              ) : (
+                <Switch onChange={e => setMode(mode === 'light' ? 'dark' : 'light')} />
+              )}
             </ListItemButton>
           </ListItem>
         ))}
