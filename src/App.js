@@ -3,6 +3,7 @@ import Feed from './Components/Feed/feed';
 import Right_bar from './Components/Right_Bar//right_bar';
 import Side_bar from './Components/Side_Bar/side_bar';
 import Nav_bar from './Components/Nav_Bar/nav_bar';
+import Add from './Components/Add/add';
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <Feed />
         <Right_bar />
       </Stack>
+      <Add />
     </>
   );
 };
