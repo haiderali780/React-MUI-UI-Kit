@@ -39,3 +39,6 @@ npm start
 ```
 
 This will start the development server and open the app in your default web browser. The app will automatically reload whenever you make changes to the code.
+
+## Contributing
+Contributions are welcome! If you'd like to contribute to this repository, please fork the repository, make your changes, and submit a pull request.
